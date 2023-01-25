@@ -5,7 +5,11 @@
 
 # Add all integers in the array and return the sum
 def sum arr
+
+  # Init sum
   sum = 0
+
+  # Loop through each element, adding as we go
   for val in arr do
     sum += val
   end
@@ -72,7 +76,7 @@ end
 # Part 2
 
 
-# 
+# Concatenes hello + name
 def hello(name)
   # YOUR CODE HERE
 end
