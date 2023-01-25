@@ -32,12 +32,47 @@ def max_2_sum arr
 end
 
 
+# Return true if any two elements in arr sum to n
 def sum_to_n? arr, n
-  # YOUR CODE HERE
+
+  # Check if the array has too few elements
+  if arr.length <= 1
+    return false
+  end
+
+  # For each element, addendA, first to last
+  iteratorA = 0
+  for addendA in arr do
+
+    # For each element, addendB, last to addendA
+    iteratorB = arr.length - 1
+    until iteratorA == iteratorB
+
+      # Get addend B
+      addendB = arr[iteratorB]
+
+      # If addendA + addendB = n, a match was found
+      if n == addendA + addendB
+        return true
+      end
+
+      # Decrement iteratorB and get the prior addendB
+      iteratorB -= 1
+    end
+
+    # Increment iteratorA and get the next addendA
+    iteratorA += 1
+  end
+
+  # No match found
+  return false
 end
+
 
 # Part 2
 
+
+# 
 def hello(name)
   # YOUR CODE HERE
 end
