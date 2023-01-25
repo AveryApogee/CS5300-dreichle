@@ -3,10 +3,11 @@
 # Part 1
 
 def sum arr
-  if arr.empty? do
-    returns 0
+  sum = 0
+  for val in arr do
+    sum += val
   end
-  
+  return sum
 end
 
 def max_2_sum arr
