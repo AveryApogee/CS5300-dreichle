@@ -78,18 +78,15 @@ end
 
 # Concatenes hello + name
 def hello(name)
-  
-  # Init hello string
-  prefix = "Hello, "
 
   # Return concat
-  return prefix.concat(name)
+  return 'Hello, ' << name
 end
 
 
-
+# Return true if s starts with a consonant
 def starts_with_consonant? s
-  # YOUR CODE HERE
+  
 end
 
 def binary_multiple_of_4? s
