@@ -78,8 +78,15 @@ end
 
 # Concatenes hello + name
 def hello(name)
-  # YOUR CODE HERE
+  
+  # Init hello string
+  prefix = "Hello, "
+
+  # Return concat
+  return prefix.concat(name)
 end
+
+
 
 def starts_with_consonant? s
   # YOUR CODE HERE
