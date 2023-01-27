@@ -86,12 +86,9 @@ end
 
 # Return true if s starts with a consonant
 def starts_with_consonant? s
-  
-  # Extract the first character
-  first = s[0]
 
   # If first character is a consonant, return true
-  if first =~ /\A(?=[^aeiou])(?=[a-z])/i
+  if s =~ /\A(?=[^aeiou])(?=[a-z])/i
     return true
   else
     return false
