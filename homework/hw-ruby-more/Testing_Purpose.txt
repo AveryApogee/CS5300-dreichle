@@ -1,0 +1,29 @@
+Avery Reichler
+31 January 2023
+CS 5300
+Homework 1, Section 2
+
+
+The Purpose of Testing
+
+
+Part 1: Fun with Strings
+Palindrome Detection:
+The purpose of the test "it should work for simple strings" is to verify that my algorithm sucessfully distinguishes palindromes from other strings.
+The purpose of the test "it should be case-insensitive" is to verify that my algorithm will classify palindromes despite the occurence of capital characters.
+The purpose of the test "it should ignore nonword charaters" is to verify that my algorithm will classify palindromes despite the occurence of special characters.
+The purpose of the test "it should consider the blank string to be a palindrome" (which is a test I wrote) is to verify that my algorithm will understand the blank string is a palindrome.
+The purpose of the test "it should consider a single character to be a palindrome" (which is a test I wrote) is to verify that my algorithm will understand a single character is a palindrome.
+
+Word Count:
+The purpose of the test "it should return a hash" is to verify that the format of my algorithm's output is correct.
+The purpose of the test "it works on simple strings" is to verify that my algorithm recognizes which words are the same despite capital characters.
+The purpose of the test "it ignores punctuation" is to verify that my algorithm will count words sucessfully despite punctuation being attached to some words.
+The purpose of the test "it works on the empty string" is to verify that my algorithm will not throw a runtime error when it tries to count nothing.
+The purpose of the test "it ignores leading whitespace" is to verify that my algorithm will count words sucessfully despite spaces proceeding some words.
+The purpose of the test "it ignores embedded whitespace" is to verify that my algorithm will count words sucessfully despite spaces, newlines, and tabs following some words.
+
+Anagram Grouping:
+The purpose of the test "it should work on the empty string" is to verify that my algorithm will not throw a runtime error when it tries to check if nothing has an anagram grouping.
+The purpose of the test "it should return an array of arrays for nonempty string" is to verify that my algorithm will return a data structure in the proper format when fed a non-empty input string.
+The purpose of the test "it for scream cars for four scar creams" it to verify that the anagram groups are classified successfully when a string of words is fed as input to my algorithm.
