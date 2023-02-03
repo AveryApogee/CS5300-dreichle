@@ -2,7 +2,7 @@ require 'dessert'
 # require 'byebug'
 require 'rspec/its'
 
-describe Dessert, :pending => true do
+describe Dessert do
   describe '[2 points] cake' do
     subject { Dessert.new('cake', 400) }
     its(:calories) { should == 400 }
@@ -28,7 +28,7 @@ describe Dessert, :pending => true do
   end
 end
 
-describe JellyBean, :pending => true do
+describe JellyBean do
   describe '[2 points] when non-licorice' do
     subject { JellyBean.new('vanilla') }
     its(:calories) { should == 5 }
@@ -38,5 +38,11 @@ describe JellyBean, :pending => true do
   describe '[2 points] when licorice' do
     subject { JellyBean.new('licorice') }
     it { should_not be_delicious }
+  end
+
+  # My test!
+  describe 'when lemon' do
+    subject { JellyBean.new('lemon') }
+    it { should be_delicious}
   end
 end
