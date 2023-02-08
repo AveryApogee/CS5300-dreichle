@@ -1,3 +1,9 @@
+# Avery Reichler
+# 8 February 2023
+# CS 5300 
+# Homework 1, Section 2, Part 2
+
+
 class Dessert
 
   # Access name

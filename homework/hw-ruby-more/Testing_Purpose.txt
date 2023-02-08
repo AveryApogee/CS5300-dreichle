@@ -1,5 +1,5 @@
 Avery Reichler
-31 January 2023
+8 February 2023
 CS 5300
 Homework 1, Section 2
 
@@ -12,8 +12,8 @@ Palindrome Detection:
 The purpose of the test "it should work for simple strings" is to verify that my algorithm sucessfully distinguishes palindromes from other strings.
 The purpose of the test "it should be case-insensitive" is to verify that my algorithm will classify palindromes despite the occurence of capital characters.
 The purpose of the test "it should ignore nonword charaters" is to verify that my algorithm will classify palindromes despite the occurence of special characters.
-The purpose of the test "it should consider the blank string to be a palindrome" (which is a test I wrote) is to verify that my algorithm will understand the blank string is a palindrome.
-The purpose of the test "it should consider a single character to be a palindrome" (which is a test I wrote) is to verify that my algorithm will understand a single character is a palindrome.
+The purpose of my test "it should consider the blank string to be a palindrome" is to verify that my algorithm will understand the blank string is a palindrome.
+The purpose of my test "it should consider a single character to be a palindrome" is to verify that my algorithm will understand a single character is a palindrome.
 
 Word Count:
 The purpose of the test "it should return a hash" is to verify that the format of my algorithm's output is correct.
@@ -27,3 +27,31 @@ Anagram Grouping:
 The purpose of the test "it should work on the empty string" is to verify that my algorithm will not throw a runtime error when it tries to check if nothing has an anagram grouping.
 The purpose of the test "it should return an array of arrays for nonempty string" is to verify that my algorithm will return a data structure in the proper format when fed a non-empty input string.
 The purpose of the test "it for scream cars for four scar creams" it to verify that the anagram groups are classified successfully when a string of words is fed as input to my algorithm.
+
+
+Part 2: Dessert
+Dessert:
+The purpose of the test "its calories should equal 400" is to verify that the dessert has the correct calorie variable set.
+The purpose of the test "its name should equal cake" is to verify that the dessert has the correct name variable set.
+The purpose of the test "it should be delicious" is to verify that the delicious method is returning the correct value.
+The purpose of the test "it should not be healthy" is to verify that the healthy method is returning the correct value.
+The purpose of the test "its calories should equal 80" for the ice cream is to verify that the calories attribute is correctly mutable.
+The purpose of the test "its name should equal ice cream" for the ice cream is to verify that the name attribute is correctly mutable.
+
+JellyBean:
+The purpose of the test "its calories should equal 5" is to verify that JellyBean is a Dessert.
+The purpose of the test "its name should match /vinalla jelly bean/" is to verify that JellyBean is a Dessert.
+The purpose of the test "it should be delicious" is to verify that JellyBean is a Dessert.
+The purpose of the test "it should not be delicious" for the licorice JellyBean is to verify that JellyBean can override Dessert methods.
+The purpose of my test "it should be delicious" for the lemon JellyBean is to verify that non-licorice JellyBeans are delicious Desserts.
+
+
+Part 3: Rock Paper Scissors
+The purpose of the test "rock breaks scissors" is to verify that rock wins over scissors.
+The purpose of the test "scissors cut paper" is to verify that scissors wins over paper.
+The purpose of the test "paper covers rock" is to verify that paper wins over rock.
+The purpose of the test "first player wins if both use the same strategy" is to verify that a tiebreaker is handled as intended.
+The purpose of the test "it should raise NoSuchStrategyError if strategy isn't R, P, or S" is to verify that moves are validated on input.
+The purpose of my test "ignores case" is to verify that the game acts the same with lowercase input moves.
+The purpose of the test "base case" is to verify that the tournament method behaves like the game method for a two-player tournament.
+The purpose of the test "recursive case" is to verify that the tournament method runs games in the proper order and scales seamlessly.
